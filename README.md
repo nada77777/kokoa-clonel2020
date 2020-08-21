@@ -1,3 +1,3 @@
 #Kokoa Clone2020
 
-css got better!
+html is so much fun!
