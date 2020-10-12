@@ -1,0 +1,151 @@
+.Friends-slot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin-top: 20px;
+    align-items: center;
+}
+.Friends-slot_emo{
+    display: flex;
+    align-items: center;
+}
+.fa-music{
+    padding: 0px 20px;
+}
+.Friends-slot_text{
+    font-size: 30px;
+    font-weight: 800;
+}
+.mine{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.my-pic img{
+
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 90%;
+}
+
+.my-pic{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.someone{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+ .friends-list
+ {
+        background-color:rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        padding: 5px 20px;
+        margin-top: 30px;
+}
+.fa-users{
+    color: skyblue;
+    margin-right: 10px;
+
+}
+.friends-list span{
+    font-size: 18px;
+    font-size: 18px;
+    
+}
+
+.friends-box img{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-right: 15px;
+    
+}
+
+.friends-box{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.friends_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.friends_column h1{
+    font-size: 25px;
+    
+    
+}
+
+.friends_column h4{
+   font-size: 15px;
+   position: relative;
+   bottom: -20px;
+   right: -5px;
+   opacity: 0.6;
+}
+.friends_column{
+    position: relative;
+    top: -10px;
+}
+
+
+
+
+@keyframes hidesplahscreen{
+
+from{
+    opacity: 1;    
+}
+
+to{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+}
+
+
+
+
+.splash-screen{
+    background-color: yellow;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 132px;
+    animation: hidesplahscreen 2s ease-in-out forwards;
+
+}
+
+@keyframes toool {
+
+    0%{
+        transform: none;
+    }
+
+    50%{
+        transform: rotateZ(360deg);
+    }
+   
+    100%{
+       transform: none;
+    }
+   }
+   .fa-cog{
+    animation: toool 5s ease-in-out infinite;
+}
